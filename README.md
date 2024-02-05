@@ -25,5 +25,25 @@
 <h2>7. Automate Deployment with Argo CD:</h2>
 <p>Leverage the automated capabilities of Argo CD to detect alterations in the GitHub repository and orchestrate the deployment of the updated application on the Kubernetes cluster.</p>
 
+<h1>Installing ArgoCD in Kubernetes Cluster</h1>
+
+<h2>Installation Command:</h2>
+<pre><code>kubectl create namespace argocd
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml</code></pre>
+
+<p>This command creates a namespace called <code>argocd</code> and deploys ArgoCD on your Kubernetes cluster using the installation manifests from the ArgoCD project's GitHub repository.</p>
+
+<h2>Verify Deployment:</h2>
+<pre><code>kubectl get pods -n argocd</code></pre>
+
+<p>After running the installation command, check the status of the ArgoCD pods to ensure a successful deployment.</p>
+
+<h2>Access ArgoCD Dashboard:</h2>
+<pre><code>kubectl port-forward svc/argocd-server -n argocd 8080:443</code></pre>
+
+<p>To access the ArgoCD dashboard, use port forwarding:</p>
+
+<p>Access the ArgoCD Dashboard from your local machine using the following link: <a href="http://localhost:8080" target="_blank">http://localhost:8080</a></p>
+
 
 
