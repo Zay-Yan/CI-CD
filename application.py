@@ -15,9 +15,6 @@ class TestAddition(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
-<!-- index.html -->
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
