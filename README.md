@@ -2,56 +2,6 @@
 
 ![CHEESE](CICD.jpg)
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub CI/CD with Argo CD and Kubernetes</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-
-        h1, h2, h3 {
-            color: #0366d6;
-        }
-
-        h2 {
-            margin-top: 20px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        code {
-            background-color: #f7f7f7;
-            padding: 2px 6px;
-            font-family: 'Courier New', monospace;
-            color: #24292e;
-            border-radius: 3px;
-        }
-
-        pre {
-            background-color: #f7f7f7;
-            padding: 10px;
-            overflow-x: auto;
-            border-radius: 6px;
-        }
-    </style>
-</head>
-
-<body>
-
     <h1>Setting Up a GitHub CI/CD Pipeline with Argo CD and Kubernetes</h1>
 
     <h2>1. GitHub Repository:</h2>
@@ -74,10 +24,6 @@
 
     <h2>7. Automate Deployment with Argo CD:</h2>
     <p>Leverage the automated capabilities of Argo CD to detect alterations in the GitHub repository and orchestrate the deployment of the updated application on the Kubernetes cluster.</p>
-
-</body>
-
-</html>
 
 
 
