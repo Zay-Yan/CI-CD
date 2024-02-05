@@ -18,7 +18,7 @@ spec:
         app: python
     spec:
       containers:
-      - image: devopsprozy/python:app-285
+      - image: devopsprozy/python:app-286
         name: python
         resources: {}
 status: {}
