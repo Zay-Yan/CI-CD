@@ -1,4 +1,4 @@
-# CI/CD with GitHub, GitHub Actions, Argo CD and Kubernetes Cluster
+<h1>CI/CD with GitHub, GitHub Actions, Argo CD and Kubernetes Cluster</h1>
 
 ![CHEESE](CICD.jpg)
 
