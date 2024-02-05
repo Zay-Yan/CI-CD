@@ -2,10 +2,10 @@
 
 ![CHEESE](CICD.jpg)
 
-    <h1>Setting Up a GitHub CI/CD Pipeline with Argo CD and Kubernetes</h1>
+<h1>Setting Up a GitHub CI/CD Pipeline with Argo CD and Kubernetes</h1>
 
-    <h2>1. GitHub Repository:</h2>
-    <p>Create a GitHub repository to store and version your application code.</p>
+<h2>1. GitHub Repository:</h2>
+<p>Create a GitHub repository to store and version your application code.</p>
 
     <h2>2. GitHub Actions Workflow:</h2>
     <p>Configure GitHub Actions by creating a workflow file in <code>.github/workflows/</code>. This file orchestrates tasks like building the image, pushing to DockerHub, and adjusting the Kubernetes manifest for deployment.</p>
