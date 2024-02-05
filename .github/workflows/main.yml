@@ -62,13 +62,12 @@ jobs:
       steps:
       - name: Checkout
         uses: actions/checkout@v4.1.1
-        with:
-          repository: './manifest'
       - name: modify the image
         run: |
           git config user.email ${{ secrets.EMAIL }}
           git config user.name ${{ secrets.USERNAME }}
           pwd
+          cd manifest
           cat deployment.yaml
           pwd
           sed -i "s+devopsprozy/python.*+devopsprozy/python:app-12-$RUN_NUMBER+g"" deployment.yaml
