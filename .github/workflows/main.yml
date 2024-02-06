@@ -63,7 +63,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.1.1
         with:
-          repository: "kubernetes/manifest"
+          repository: "zay-yan/kubernetes/manifest"
           token: ${{ secrets.TOKEN }}
       - name: modify the image
         run: |
